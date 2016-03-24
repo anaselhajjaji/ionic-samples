@@ -1,6 +1,6 @@
 {
   "name": "IonicSample",
-  "app_id": "",
+  "app_id": "anaware.samples.jsonionic",
   "gulpStartupTasks": [
     "sass",
     "watch"

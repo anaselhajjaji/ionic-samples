@@ -2,7 +2,7 @@ Welcome to ionic samples.
 
 In this repository you'll find some samples built using ionic framework that you can reuse for your applications.
 
-# IonicJsonSample
+# Big JSON in ionic app
 The idea is to download a big JSON over HTTP GET (JSON size is 8mo and contains 30.000 records).
 
 The goal is to test the performances of ionic application.

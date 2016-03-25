@@ -1,9 +1,9 @@
 <ion-view view-title="Songs">
   <ion-content>
     <ion-list>
-      <ion-item class="card" ng-repeat="song in songs | limitTo:elementsSize" href="#">
+      <ion-item class="card" ng-repeat="song in songs | limitTo:elementsSize track by $index">
         <!--a class="item item-thumbnail-left" href="#/app/songs/{{song.TrackId}}"-->
-        <a class="item item-thumbnail-left" href="#">
+        <a class="item item-thumbnail-left">
             <img src="{{song.TrackImage}}">
             <h2>{{song.Artist}}</h2>
             <p>{{song.Title}}</p>
